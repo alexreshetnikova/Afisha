@@ -13,7 +13,7 @@ public class AfishaManagerTest {
     void shouldAdd() {
         Film first = new Film(1, "Bloodshot", "action");
         Film second = new Film(2, "Onward", "cartoon");
-        Film third = new Film(3, "Hotel Beograd", "comedy");
+        Film third = new Film(3, "Hotel Belgrad", "comedy");
 
         manager.add(first);
         manager.add(second);
@@ -38,7 +38,7 @@ public class AfishaManagerTest {
     void shouldAddMoreThanMax() {
         Film first = new Film(1, "Bloodshot", "action");
         Film second = new Film(2, "Onward", "cartoon");
-        Film third = new Film(3, "Hotel Beograd", "comedy");
+        Film third = new Film(3, "Hotel Belgrad", "comedy");
         Film fourth = new Film(4, "The Gentlemen", "action");
         Film fifth = new Film(5, "The Invisible Man", "horror");
         Film sixth = new Film(6, "Trolls World Tour", "cartoon");
