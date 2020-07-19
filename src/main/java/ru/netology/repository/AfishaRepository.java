@@ -1,4 +1,4 @@
-package ru.netology.manager;
+package ru.netology.repository;
 
 import ru.netology.domain.Film;
 
