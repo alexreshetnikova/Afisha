@@ -25,6 +25,11 @@ public class AfishaManager {
 
     public Film[] getLastAddedItems() {
         int length = itemsToShow;
+
+        if (itemsToShow < 0) {
+            length = 0;
+        }
+
         if (length > items.length) {
             length = items.length;
         }
